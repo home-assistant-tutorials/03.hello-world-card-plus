@@ -31,6 +31,19 @@ class HelloWorldCard extends HTMLElement {
         `;
     }
 
+    static getStubConfig() {
+        return { entity: "sun.sun" }
+    }
+
 }
 
 customElements.define('hello-world-card', HelloWorldCard);
+
+window.customCards = window.customCards || [];
+window.customCards.push({
+    type: "hello-world-card",
+    name: "Hello World Card",
+    description: "A custom card made by me!" // optional
+});
+
+

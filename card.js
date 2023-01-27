@@ -45,5 +45,3 @@ window.customCards.push({
     name: "Hello World Card",
     description: "A custom card made by me!" // optional
 });
-
-

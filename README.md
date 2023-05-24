@@ -51,7 +51,7 @@ The error will be caught to be displayed in an error frame to guide the user.
 
 ### Providing a default configuration
 
-To provide a default configuraion define a method `getStubConfig`. It must
+To provide a default configuration define a method `getStubConfig`. It must
 return a data object (json) holding the properties you want to set a default for
 (without the `type:` parameter).
 
